@@ -36,7 +36,7 @@ class QuesoViewController: UIViewController {
         super.viewDidLoad()
         if pizza != nil {
             descripcionLabel.text = pizza?.tipoMasa?.rawValue
-        }
+        } 
     }
     
     override func didReceiveMemoryWarning() {

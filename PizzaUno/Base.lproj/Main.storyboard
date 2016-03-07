@@ -177,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="1445" y="311"/>
         </scene>
-        <!--Tipo de masa-->
+        <!--aaa-->
         <scene sceneID="2kX-EQ-Xgg">
             <objects>
-                <viewController id="EcI-CU-CbA" customClass="TipoMasaViewController" customModule="PizzaUno" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="aaa" id="EcI-CU-CbA" customClass="TipoMasaViewController" customModule="PizzaUno" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m0R-dQ-AFm"/>
                         <viewControllerLayoutGuide type="bottom" id="lQA-24-bsn"/>

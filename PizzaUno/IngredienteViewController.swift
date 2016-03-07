@@ -38,7 +38,7 @@ class IngredienteViewController: UIViewController {
         if pizza != nil {
             pizza?.agregarIngrediente((sender.titleLabel?.text)!)
         }
-    }
+    } 
     
     
     var pizza: Pizza?
