@@ -12,6 +12,11 @@
 		694AB3AA1C88F9BA0076F643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694AB3A81C88F9BA0076F643 /* Main.storyboard */; };
 		694AB3AC1C88F9BA0076F643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694AB3AB1C88F9BA0076F643 /* Assets.xcassets */; };
 		694AB3AF1C88F9BA0076F643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694AB3AD1C88F9BA0076F643 /* LaunchScreen.storyboard */; };
+		694AB3B71C88FB8B0076F643 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AB3B61C88FB8B0076F643 /* Pizza.swift */; };
+		694AB3B91C8902020076F643 /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AB3B81C8902020076F643 /* QuesoViewController.swift */; };
+		694AB3BB1C8904320076F643 /* TipoMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AB3BA1C8904320076F643 /* TipoMasaViewController.swift */; };
+		694AB3BD1C890AE10076F643 /* ConfirmaOrdenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AB3BC1C890AE10076F643 /* ConfirmaOrdenViewController.swift */; };
+		697E3CD01C8A0CB100DC53BE /* IngredienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E3CCF1C8A0CB100DC53BE /* IngredienteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		694AB3AB1C88F9BA0076F643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		694AB3AE1C88F9BA0076F643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		694AB3B01C88F9BA0076F643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694AB3B61C88FB8B0076F643 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		694AB3B81C8902020076F643 /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		694AB3BA1C8904320076F643 /* TipoMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaViewController.swift; sourceTree = "<group>"; };
+		694AB3BC1C890AE10076F643 /* ConfirmaOrdenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmaOrdenViewController.swift; sourceTree = "<group>"; };
+		697E3CCF1C8A0CB100DC53BE /* IngredienteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredienteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				694AB3A41C88F9BA0076F643 /* AppDelegate.swift */,
 				694AB3A61C88F9BA0076F643 /* ViewController.swift */,
 				694AB3A81C88F9BA0076F643 /* Main.storyboard */,
+				694AB3BA1C8904320076F643 /* TipoMasaViewController.swift */,
+				694AB3BC1C890AE10076F643 /* ConfirmaOrdenViewController.swift */,
+				694AB3B61C88FB8B0076F643 /* Pizza.swift */,
 				694AB3AB1C88F9BA0076F643 /* Assets.xcassets */,
 				694AB3AD1C88F9BA0076F643 /* LaunchScreen.storyboard */,
 				694AB3B01C88F9BA0076F643 /* Info.plist */,
+				694AB3B81C8902020076F643 /* QuesoViewController.swift */,
+				697E3CCF1C8A0CB100DC53BE /* IngredienteViewController.swift */,
 			);
 			path = PizzaUno;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697E3CD01C8A0CB100DC53BE /* IngredienteViewController.swift in Sources */,
+				694AB3B91C8902020076F643 /* QuesoViewController.swift in Sources */,
 				694AB3A71C88F9BA0076F643 /* ViewController.swift in Sources */,
 				694AB3A51C88F9BA0076F643 /* AppDelegate.swift in Sources */,
+				694AB3B71C88FB8B0076F643 /* Pizza.swift in Sources */,
+				694AB3BD1C890AE10076F643 /* ConfirmaOrdenViewController.swift in Sources */,
+				694AB3BB1C8904320076F643 /* TipoMasaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				694AB3B51C88F9BA0076F643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
