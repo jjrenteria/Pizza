@@ -52,6 +52,23 @@ class Pizza {
     var tipoQueso: TipoQueso?
     var ingredientes: [Ingredientes] = []
     
+    func tamañosPizza() ->  [String] {
+        return [ Tamaños.chica.rawValue, Tamaños.mediana.rawValue, Tamaños.grande.rawValue ]
+    }
+    
+    func listaDeMasas() -> [String] {
+        return [ TipoMasa.delgada.rawValue, TipoMasa.crujiente.rawValue, TipoMasa.gruesa.rawValue]
+    }
+    
+    func listaDeQuesos() -> [String] {
+        return [TipoQueso.mozarela.rawValue, TipoQueso.cheddar.rawValue, TipoQueso.parmesano.rawValue, TipoQueso.sinqueso.rawValue]
+    }
+    
+    func listaIngredientes() -> [String] {
+        return [ Ingredientes.Jamón.rawValue, Ingredientes.Pepperoni.rawValue, Ingredientes.Pavo.rawValue, Ingredientes.Salchicha.rawValue ,
+        Ingredientes.Aceituna.rawValue, Ingredientes.Cebolla.rawValue, Ingredientes.Pimiento.rawValue, Ingredientes.Piña.rawValue,
+        Ingredientes.Anchoa.rawValue, Ingredientes.Pollo.rawValue ]
+    }
     
     
     func descripcion() -> String {
@@ -93,7 +110,7 @@ class Pizza {
     // Agrega un ingrediente a la pizza, no se permiten ingredientes duplicados
     // Máximo 5 ingredientes
     func agregarIngrediente(nombreIngrediente:String) {
-        print("Ingrediente \(nombreIngrediente)")
+   
         if ingredientes.count < 5 {
             
             if let ing = Ingredientes(rawValue: nombreIngrediente) {
@@ -103,6 +120,17 @@ class Pizza {
                 }
             }
         }
+    }
+    
+    func cancelaPizza() {
+        self.tamaño = nil
+        self.tipoMasa = nil
+        self.tipoQueso = nil
+        self.ingredientes = []
+    }
+    
+    func ordenaPizza() {
+        cancelaPizza()
     }
     
     
